@@ -461,18 +461,18 @@ footer > div p {
   color: white;
 }
 footer > div div {
-  width: 40%;
+  width: 30%;
   height: 3px;
   background-color: white;
 }
 @media (min-width: 768px) {
   footer > div div {
-    width: 45%;
+    width: 35%;
   }
 }
 @media (min-width: 992px) {
   footer > div div {
-    width: 50%;
+    width: 45%;
   }
 }
 
@@ -480,6 +480,7 @@ body {
   padding: 0px;
   margin: 0px;
   background: #86998C;
+  width: 100vw;
 }
 @media (min-width: 992px) {
   body {
@@ -503,12 +504,7 @@ body main div {
   body main div {
     width: 50vw;
     padding: 0% 4%;
-  }
-}
-@media (min-width: 1200px) {
-  body main div {
-    width: 50vw;
-    padding: 0% 4%;
+    height: 100%;
   }
 }
 body main div section {
@@ -522,7 +518,6 @@ body main div section h2 {
   margin-top: 2%;
 }
 body main div section p {
-  align-self: flex-end;
   margin-top: 50%;
 }
 @media (min-width: 768px) {
@@ -536,6 +531,7 @@ body main #right {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 @media (min-width: 992px) {
   body main #right {

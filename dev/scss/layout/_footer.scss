@@ -4,6 +4,7 @@
 footer{
     background-color: transparent;
     width: 100vw;
+    // padding: 0% 8%;
 
     @include lg {
         width: 50vw;
@@ -24,16 +25,16 @@ footer{
         }
         
         div{
-            width: 40%;
+            width: 30%;
             height: 3px;
             background-color: white;
 
             @include md {
-                width: 45%;
+                width: 35%;
             }
 
             @include lg {
-                width: 50%;
+                width: 45%;
             }
         }
     }
