@@ -384,6 +384,13 @@ h2 {
   color: #DB2518;
 }
 
+h3 {
+  font-family: Futura;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
 p {
   font-family: Futura;
   font-size: 18px;
@@ -475,4 +482,20 @@ body main div section h2 {
 }
 body main div section p {
   margin-top: 50%;
+}
+body main div #starring {
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 0px;
+}
+body main div #starring h3 {
+  text-align: center;
+}
+body main #right {
+  background-image: url("../img/the_royal_tenenbaums.jpeg");
+  margin-bottom: -50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
