@@ -1,18 +1,29 @@
-// #content{
-//     height: 402px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background-color: #F2EBE1;
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+    background: #86998C;
+    main{
+        display: flex;
+        div{
+            width: 50vw;
+            padding: 50px 0px 50px 35px;
+            section{
+                width: 70%;
+                height: 80%;
+                background-color: transparent;
+                display: flex;
+                flex-flow: column nowrap;
 
-//     p{
-//         width: 576px;
-//         height: 90px;
-//         text-align: center;
-//         color: #B22D00;
-//         font-family: Jost;
-//         font-style: normal;
-//         font-weight: normal;
-//         font-size: rem-calc(12px);
-//     }
-// }
+                h2{
+                    margin-top: 2%;
+                }
+
+                p{
+                    margin-top: 50%;
+                }
+            }
+        }
+    }
+}

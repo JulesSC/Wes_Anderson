@@ -1,3 +1,23 @@
 /* =============
     Footer
 ============= */
+footer{
+    background-color: transparent;
+    width: 50vw;
+    >div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 35px;
+       
+        p{
+            color: white;
+        }
+        
+        div{
+            width: 50%;
+            height: 3px;
+            background-color: white;
+        }
+    }
+}
