@@ -3,21 +3,38 @@
 ============= */
 footer{
     background-color: transparent;
-    width: 50vw;
+    width: 100vw;
+
+    @include lg {
+        width: 50vw;
+    }
+
     >div{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 35px;
+        padding: 10px 25px;
+
+        @include lg {
+            padding: 10px 35px;
+        }
        
         p{
             color: white;
         }
         
         div{
-            width: 50%;
+            width: 40%;
             height: 3px;
             background-color: white;
+
+            @include md {
+                width: 45%;
+            }
+
+            @include lg {
+                width: 50%;
+            }
         }
     }
 }

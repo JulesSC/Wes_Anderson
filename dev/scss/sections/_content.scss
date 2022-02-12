@@ -1,20 +1,45 @@
 body{
     padding: 0px;
     margin: 0px;
-    height: 100vh;
-    overflow: hidden;
     background: #86998C;
+    
+    @include md {
+        height: 100vh;
+        overflow: hidden;
+    }
+
     main{
-        display: flex;
+        
+        @include lg {
+            display: flex;
+        }
+
         div{
-            width: 50vw;
-            padding: 50px 0px 50px 35px;
+            width: 100vw;
+            height: 100vh;
+            padding: 0% 8%;
+            display: flex;
+            align-items: center;
+        
+            @include lg {
+                width: 50vw;
+                padding: 50px 0px 50px 35px;
+            }
+
             section{
                 width: 70%;
                 height: 80%;
                 background-color: transparent;
                 display: flex;
                 flex-flow: column nowrap;
+
+                @include lg {
+                    width: 70%;
+                    height: 80%;
+                    background-color: transparent;
+                    display: flex;
+                    flex-flow: column nowrap;
+                }
 
                 h2{
                     margin-top: 2%;
@@ -36,11 +61,14 @@ body{
         }
         #right{
             background-image: url("../img/the_royal_tenenbaums.jpeg");
-            // height: 100vh;
-            margin-bottom: -50px;
+            margin-bottom: -70px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+
+            @include md {
+                display: flex;
+            }
         }
     }
 }
