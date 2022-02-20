@@ -440,6 +440,7 @@ textarea {
 footer {
   background-color: transparent;
   width: 100vw;
+  z-index: 10002;
 }
 @media (min-width: 992px) {
   footer {
@@ -481,11 +482,12 @@ body {
   margin: 0px;
   background: #86998C;
   width: 100vw;
+  overflow-x: hidden;
 }
 @media (min-width: 992px) {
   body {
     height: 100vh;
-    overflow: hidden;
+    overflow-y: hidden;
   }
 }
 @media (min-width: 992px) {
@@ -504,7 +506,7 @@ body main div {
   body main div {
     width: 50vw;
     padding: 0% 4%;
-    height: 100%;
+    height: 100vh;
   }
 }
 body main div section {
@@ -525,26 +527,33 @@ body main div section p {
     margin-top: 45%;
   }
 }
-body main #right {
-  background-image: url("../img/the_royal_tenenbaums.jpeg");
+body main .right {
   margin-bottom: -70px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  overflow: hidden;
+}
+body main .right section {
+  align-items: center;
+}
+body main .right section img {
   height: 100vh;
+  top: 100vh;
+  left: 0;
+  position: absolute;
 }
 @media (min-width: 992px) {
-  body main #right {
-    display: flex;
-    align-items: center;
+  body main .right section img {
+    top: 0;
+    left: 50%;
   }
 }
-body main #right #starring {
+body main .right section #starring {
+  display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
   justify-content: space-around;
   margin: 0px;
+  z-index: 900;
 }
-body main #right #starring h3 {
+body main .right section #starring h3 {
   text-align: center;
 }

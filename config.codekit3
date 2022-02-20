@@ -29,15 +29,15 @@
       "oAP" : "\/deploy\/footer.html",
       "oF" : 0
     },
-    "\/deploy\/img\/the_royal_tenenbaums.jpeg" : {
+    "\/deploy\/img\/the_royal_tenenbaums.jpg" : {
       "ft" : 16384,
-      "iS" : 248095,
+      "iS" : 203588,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/the_royal_tenenbaums.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -67,7 +67,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/content.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
