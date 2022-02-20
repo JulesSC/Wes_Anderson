@@ -441,6 +441,7 @@ footer {
   background-color: transparent;
   width: 100vw;
   z-index: 10002;
+  margin: 0;
 }
 @media (min-width: 992px) {
   footer {
@@ -530,6 +531,8 @@ body main div section p {
 body main .right {
   margin-bottom: -70px;
   overflow: hidden;
+  justify-content: center;
+  padding: 0;
 }
 body main .right section {
   align-items: center;
@@ -546,14 +549,15 @@ body main .right section img {
     left: 50%;
   }
 }
-body main .right section #starring {
+body main .right section .starring {
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
   justify-content: space-around;
   margin: 0px;
-  z-index: 900;
+  z-index: 1000;
 }
-body main .right section #starring h3 {
+body main .right section .starring h3 {
   text-align: center;
+  margin: 0px 10%;
 }
