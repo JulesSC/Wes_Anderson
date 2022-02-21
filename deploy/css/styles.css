@@ -493,8 +493,6 @@ body {
 body main div {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  align-items: center;
 }
 @media (min-width: 992px) {
   body main div {
@@ -503,21 +501,21 @@ body main div {
   }
 }
 body main div section {
-  width: 92%;
-  padding: 8% 8%;
-  height: 92%;
+  padding: 8vh 8vh 0vh 8vh;
+  height: 92vh;
   display: flex;
   flex-flow: column nowrap;
+  overflow: hidden;
 }
 body main div section h2 {
   margin-top: 2%;
 }
 body main div section p {
-  margin-top: 50%;
+  margin-top: 40%;
 }
 @media (min-width: 768px) {
   body main div section p {
-    margin-top: 45%;
+    margin-top: 35%;
   }
 }
 body main div .royal {
@@ -527,10 +525,11 @@ body main .right {
   margin-bottom: -70px;
   overflow: hidden;
   justify-content: center;
-  padding: 0;
+  padding: 0px;
 }
 body main .right section {
   align-items: center;
+  height: 92%;
 }
 body main .right section img {
   height: 100vh;

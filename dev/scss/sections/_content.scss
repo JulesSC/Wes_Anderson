@@ -18,8 +18,6 @@ body{
         div{
             width: 100vw;
             height: 100vh;
-            display: flex;
-            align-items: center;
         
             @include lg {
                 width: 50vw;
@@ -27,13 +25,12 @@ body{
             }
 
             section{
-                width: 92%;
-                // height: 80%;
-                padding: 8% 8%;
-                height: 92%;
-                // background-color: transparent;
+                // width: 92%;
+                padding: 8vh 8vh 0vh 8vh;
+                height: 92vh;
                 display: flex;
                 flex-flow: column nowrap;
+                overflow: hidden;
 
                 h2{
                     margin-top: 2%;
@@ -41,10 +38,10 @@ body{
 
                 p{
                     // align-self: flex-end;
-                    margin-top: 50%;
+                    margin-top: 40%;
 
                     @include md {
-                        margin-top: 45%;
+                        margin-top: 35%;
                     }
                 }
             }
@@ -55,16 +52,17 @@ body{
         }
         .right{
             // background-image: url("../img/the_royal_tenenbaums.jpeg");
-            margin-bottom: -70px;
             // background-position: center;
             // background-repeat: no-repeat;
             // background-size: cover;
+            margin-bottom: -70px;
             overflow: hidden;
             justify-content: center;
-            padding: 0;
+            padding: 0px;
 
             section{
                 align-items: center;
+                height: 92%;
 
                 img{
                     height: 100vh;
