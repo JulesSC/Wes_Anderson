@@ -345,10 +345,6 @@ template {
 /* =============
     Base
 ============= */
-.gs-dev-tools {
-  z-index: 7000;
-}
-
 figure {
   padding: 0;
   margin: 0;
@@ -363,7 +359,6 @@ ul li {
 }
 
 body {
-  background-color: #F2EBE1;
   padding: 15px;
 }
 
@@ -441,7 +436,7 @@ footer {
   background-color: transparent;
   width: 100vw;
   z-index: 10002;
-  margin: 0;
+  margin: 0px;
 }
 @media (min-width: 992px) {
   footer {
@@ -481,7 +476,6 @@ footer > div div {
 body {
   padding: 0px;
   margin: 0px;
-  background: #86998C;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -499,21 +493,19 @@ body {
 body main div {
   width: 100vw;
   height: 100vh;
-  padding: 0% 8%;
   display: flex;
   align-items: center;
 }
 @media (min-width: 992px) {
   body main div {
     width: 50vw;
-    padding: 0% 4%;
     height: 100vh;
   }
 }
 body main div section {
-  width: 70%;
-  height: 80%;
-  background-color: transparent;
+  width: 92%;
+  padding: 8% 8%;
+  height: 92%;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -527,6 +519,9 @@ body main div section p {
   body main div section p {
     margin-top: 45%;
   }
+}
+body main div .royal {
+  background-color: #86998C;
 }
 body main .right {
   margin-bottom: -70px;
