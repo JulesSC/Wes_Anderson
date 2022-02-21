@@ -11,6 +11,7 @@ body{
     }
 
     main{
+        
         @include lg {
             display: flex;
         }
@@ -25,7 +26,6 @@ body{
             }
 
             section{
-                // width: 92%;
                 padding: 8vh 8vh 0vh 8vh;
                 height: 92vh;
                 display: flex;
@@ -62,7 +62,6 @@ body{
 
             section{
                 align-items: center;
-                height: 92%;
 
                 img{
                     height: 100vh;
