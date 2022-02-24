@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "@fancyapps/ui": "^4.0.25",
-    "gsap": "file:gsap-bonus.tgz"
+    "gsap": "file:gsap-bonus.tgz",
+    "split-grid": "^1.0.11"
   }
 }
