@@ -1,13 +1,23 @@
-import { gsap } from "gsap";
-import Split from 'split-grid'
+// import { gsap } from "gsap";
+// import { multiscroll } from "multiscroll";
 
-Split({
-    columnGutters: [{
-        track: 1,
-        element: document.querySelector('.gutter-col-1')
-    }],
-    rowGutters: [{
-        track: 1,
-        element: document.querySelector('.gutter-row-1')
-    }]
-})
+$(document).ready(function() {
+	$('#multiscroll').multiscroll({
+        navigation: true,
+		navigationPosition: 'left',
+		navigationColor: '#000'
+    });
+});
+
+// import Split from 'split-grid'
+
+// Split({
+//     columnGutters: [{
+//         track: 1,
+//         element: document.querySelector('.gutter-col-1')
+//     }],
+//     rowGutters: [{
+//         track: 1,
+//         element: document.querySelector('.gutter-row-1')
+//     }]
+// })

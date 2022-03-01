@@ -1,118 +1,121 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    // background: #86998C;
-    width: 100vw;
-    overflow-x: hidden;
+
+// STYLES VERSION ONE
+
+// body{
+//     padding: 0px;
+//     margin: 0px;
+//     // background: #86998C;
+//     width: 100vw;
+//     overflow-x: hidden;
     
-    @include lg {
-        height: 100vh;
-        overflow-y: hidden;
-    }
+//     @include lg {
+//         height: 100vh;
+//         overflow-y: hidden;
+//     }
 
-    main{
+//     main{
         
-        @include lg {
-            display: flex;
-        }
+//         @include lg {
+//             display: flex;
+//         }
 
-        // .grid {
-        //     display: grid;
-        //     grid-template-rows: 1fr 10px 1fr;
-        //     grid-template-columns: 1fr 10px 1fr;
-        // }
+//         // .grid {
+//         //     display: grid;
+//         //     grid-template-rows: 1fr 10px 1fr;
+//         //     grid-template-columns: 1fr 10px 1fr;
+//         // }
         
-        // .gutter-col {
-        //     grid-row: 1/-1;
-        //     cursor: col-resize;
-        // }
+//         // .gutter-col {
+//         //     grid-row: 1/-1;
+//         //     cursor: col-resize;
+//         // }
         
-        // .gutter-col-1 {
-        //     grid-column: 2;
-        // }
+//         // .gutter-col-1 {
+//         //     grid-column: 2;
+//         // }
         
-        // .gutter-row {
-        //     grid-column: 1/-1;
-        //     cursor: row-resize;
-        // }
+//         // .gutter-row {
+//         //     grid-column: 1/-1;
+//         //     cursor: row-resize;
+//         // }
         
-        // .gutter-row-1 {
-        //     grid-row: 2;
-        // }
+//         // .gutter-row-1 {
+//         //     grid-row: 2;
+//         // }
 
-        div{
-            width: 100vw;
-            height: 100vh;
+//         div{
+//             width: 100vw;
+//             height: 100vh;
         
-            @include lg {
-                width: 50vw;
-                height: 100vh;
-            }
+//             @include lg {
+//                 width: 50vw;
+//                 height: 100vh;
+//             }
 
-            section{
-                padding: 8vh 8vh 0vh 8vh;
-                height: 92vh;
-                display: flex;
-                flex-flow: column nowrap;
-                overflow: hidden;
+//             section{
+//                 padding: 8vh 8vh 0vh 8vh;
+//                 height: 92vh;
+//                 display: flex;
+//                 flex-flow: column nowrap;
+//                 overflow: hidden;
 
-                h2{
-                    margin-top: 2%;
-                }
+//                 h2{
+//                     margin-top: 2%;
+//                 }
 
-                p{
-                    // align-self: flex-end;
-                    margin-top: 40%;
+//                 p{
+//                     // align-self: flex-end;
+//                     margin-top: 40%;
 
-                    @include md {
-                        margin-top: 35%;
-                    }
-                }
-            }
+//                     @include md {
+//                         margin-top: 35%;
+//                     }
+//                 }
+//             }
 
-            .royal{
-                background-color: #86998C;
-            }
-        }
-        .right{
-            // background-image: url("../img/the_royal_tenenbaums.jpeg");
-            // background-position: center;
-            // background-repeat: no-repeat;
-            // background-size: cover;
-            margin-bottom: -70px;
-            overflow: hidden;
-            justify-content: center;
-            padding: 0px;
+//             .royal{
+//                 background-color: #86998C;
+//             }
+//         }
+//         .right{
+//             // background-image: url("../img/the_royal_tenenbaums.jpeg");
+//             // background-position: center;
+//             // background-repeat: no-repeat;
+//             // background-size: cover;
+//             margin-bottom: -70px;
+//             overflow: hidden;
+//             justify-content: center;
+//             padding: 0px;
 
-            section{
-                align-items: center;
+//             section{
+//                 align-items: center;
 
-                img{
-                    height: 100vh;
-                    top: 100vh;
-                    left: 0;
-                    position: absolute;
+//                 img{
+//                     height: 100vh;
+//                     top: 100vh;
+//                     left: 0;
+//                     position: absolute;
 
-                    @include lg {
-                        top: 0;
-                        left: 50%;
-                    }
-                }
+//                     @include lg {
+//                         top: 0;
+//                         left: 50%;
+//                     }
+//                 }
 
-                .starring{
-                    display: flex;
-                    flex-flow: row nowrap;
-                    align-items: flex-start;
-                    justify-content: space-around;
-                    margin: 0px;
-                    z-index: 1000;
+//                 .starring{
+//                     display: flex;
+//                     flex-flow: row nowrap;
+//                     align-items: flex-start;
+//                     justify-content: space-around;
+//                     margin: 0px;
+//                     z-index: 1000;
                     
-                    h3{
-                        text-align: center;
-                        margin: 0px 10%;
-                    }
-                }
-            }
-        }
-    }
-}
+//                     h3{
+//                         text-align: center;
+//                         margin: 0px 10%;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
