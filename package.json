@@ -10,8 +10,6 @@
   "dependencies": {
     "@fancyapps/ui": "^4.0.25",
     "gsap": "file:gsap-bonus.tgz",
-    "jquery": "^3.6.0",
-    "multiscroll.js": "^0.2.3",
     "split-grid": "^1.0.11"
   }
 }

@@ -1,0 +1,1 @@
+!function(){"use strict";$(document).ready((function(){$("#multiscroll").multiscroll({navigation:!0,navigationPosition:"left",navigationColor:"#000"})}))}();

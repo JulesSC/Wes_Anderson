@@ -468,32 +468,3 @@ footer > div div {
     width: 45%;
   }
 }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  width: 100vw;
-  height: 100vh;
-}
-body .main_content {
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-body .main_content > div {
-  width: 50%;
-  height: 100%;
-}
-body .main_content > div .slide {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-body .main_content .main_div1 {
-  background-color: blue;
-  position: relative;
-}
-body .main_content .main_div2 {
-  background-color: red;
-  position: relative;
-}
