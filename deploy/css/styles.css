@@ -358,10 +358,6 @@ ul li {
   list-style: none;
 }
 
-body {
-  padding: 15px;
-}
-
 /* =============
     Typography
 ============= */
@@ -474,83 +470,30 @@ footer > div div {
 }
 
 body {
-  padding: 0px;
   margin: 0px;
-  width: 100vw;
-  overflow-x: hidden;
-}
-@media (min-width: 992px) {
-  body {
-    height: 100vh;
-    overflow-y: hidden;
-  }
-}
-@media (min-width: 992px) {
-  body main {
-    display: flex;
-  }
-}
-body main div {
-  width: 100vw;
-  height: 100vh;
-}
-@media (min-width: 992px) {
-  body main div {
-    width: 50vw;
-    height: 100vh;
-  }
-}
-body main div section {
-  padding: 8vh 8vh 0vh 8vh;
-  height: 92vh;
-  display: flex;
-  flex-flow: column nowrap;
-  overflow: hidden;
-}
-body main div section h2 {
-  margin-top: 2%;
-}
-body main div section p {
-  margin-top: 40%;
-}
-@media (min-width: 768px) {
-  body main div section p {
-    margin-top: 35%;
-  }
-}
-body main div .royal {
-  background-color: #86998C;
-}
-body main .right {
-  margin-bottom: -70px;
-  overflow: hidden;
-  justify-content: center;
   padding: 0px;
-}
-body main .right section {
-  align-items: center;
-}
-body main .right section img {
+  width: 100vw;
   height: 100vh;
-  top: 100vh;
-  left: 0;
+}
+body .main_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+body .main_content > div {
+  width: 50%;
+  height: 100%;
+}
+body .main_content > div .slide {
   position: absolute;
+  width: 100%;
+  height: 100%;
 }
-@media (min-width: 992px) {
-  body main .right section img {
-    top: 0;
-    left: 50%;
-  }
+body .main_content .main_div1 {
+  background-color: blue;
+  position: relative;
 }
-body main .right section .starring {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin: 0px;
-  z-index: 1000;
-}
-body main .right section .starring h3 {
-  text-align: center;
-  margin: 0px 10%;
+body .main_content .main_div2 {
+  background-color: red;
+  position: relative;
 }

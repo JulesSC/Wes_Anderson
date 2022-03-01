@@ -1,14 +1,14 @@
 // import { gsap } from "gsap";
-import $ from "jquery";
-// import { multiscroll } from "multiscroll";
+// import $ from "jquery";
+// // import { multiscroll } from "multiscroll";
 
-$(document).ready(function() {
-	$('#multiscroll').multiscroll({
-        navigation: true,
-		navigationPosition: 'left',
-		navigationColor: '#000'
-    });
-});
+// $(document).ready(function() {
+// 	$('#multiscroll').multiscroll({
+//         navigation: true,
+// 		navigationPosition: 'left',
+// 		navigationColor: '#000'
+//     });
+// });
 
 // import Split from "split-grid"
 
