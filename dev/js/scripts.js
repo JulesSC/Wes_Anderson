@@ -1,4 +1,5 @@
 // import { gsap } from "gsap";
+import $ from "jquery";
 // import { multiscroll } from "multiscroll";
 
 $(document).ready(function() {
@@ -9,7 +10,7 @@ $(document).ready(function() {
     });
 });
 
-// import Split from 'split-grid'
+// import Split from "split-grid"
 
 // Split({
 //     columnGutters: [{
